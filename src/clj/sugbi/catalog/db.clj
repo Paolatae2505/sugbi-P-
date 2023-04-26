@@ -8,7 +8,6 @@
 
 (conman/bind-connection db/*db* "sql/catalog.sql")
 
-
 (defn matching-books
   [title]
   (map

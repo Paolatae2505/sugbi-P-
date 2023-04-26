@@ -1,0 +1,54 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Aborting jack-in. No project type selected.
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Failed starting cljs repl
+
+
+; Jack-in done.
+clj꞉shadow.user꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+{:started []}
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> (user/reset-db)
+nil
+clj꞉shadow.user꞉> (user/reset-db)
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
+; ERROR: cannot drop table catalog.book_item because other objects depend on it
+;   Detail: constraint book_lending_book_item_id_fkey on table catalog.book_lending depends on table catalog.book_item
+;   Hint: Use DROP ... CASCADE to drop the dependent objects too.
+clj꞉shadow.user꞉> 

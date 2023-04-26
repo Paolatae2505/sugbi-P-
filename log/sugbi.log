@@ -1,0 +1,45 @@
+2023-04-25 14:37:12,353 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-25 14:37:16,534 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-25 14:37:16,599 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-25 14:37:17,164 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-25 14:37:17,266 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-25 15:42:14,529 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-04-25 15:42:19,074 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  luminus.http-server - server started on port 3000 
+2023-04-25 18:54:07,160 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
+2023-04-25 18:54:07,481 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - creating migration table 'schema_migrations' 
+2023-04-25 18:54:09,015 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x7cc8f94 /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
+2023-04-25 18:54:09,020 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
+2023-04-25 18:54:09,024 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
+2023-04-25 18:54:09,052 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x6df14445 /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
+2023-04-25 18:54:09,054 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running up for [20230228002443 20230321184035 20230417032642 20230424194606] 
+2023-04-25 18:54:09,054 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230228002443-initial-catalog-model 
+2023-04-25 18:54:09,055 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
+2023-04-25 18:54:09,115 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 4 up migrations 
+2023-04-25 18:54:09,367 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230228002443 complete 
+2023-04-25 18:54:09,395 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230321184035-removes-catalog-book-info 
+2023-04-25 18:54:09,395 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
+2023-04-25 18:54:09,398 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 3 up migrations 
+2023-04-25 18:54:09,511 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230321184035 complete 
+2023-04-25 18:54:09,528 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230417032642-adds-librarians 
+2023-04-25 18:54:09,528 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
+2023-04-25 18:54:09,532 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
+2023-04-25 18:54:09,733 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230417032642 complete 
+2023-04-25 18:54:09,760 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230424194606-complete-catalog-model-activity 
+2023-04-25 18:54:09,762 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
+2023-04-25 18:54:09,799 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
+2023-04-25 18:54:09,923 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230424194606 complete 
+2023-04-25 18:54:09,950 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
+2023-04-25 18:56:44,724 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
+2023-04-25 18:56:44,773 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x56365f9d /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
+2023-04-25 18:56:44,775 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running down for [20230424194606 20230417032642 20230321184035 20230228002443] 
+2023-04-25 18:56:44,776 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230424194606-complete-catalog-model-activity 
+2023-04-25 18:56:44,777 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x2ab4dd98 org.postgresql.jdbc.PgConnection@2ab4dd98]} Config is {:store :database, :db {:connection-uri uri-censored}} 
+2023-04-25 18:56:44,817 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
+2023-04-25 18:56:44,873 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] ERROR migratus.migration.sql - failed to execute command:
+ drop table catalog.book_item;
+ 
+2023-04-25 18:56:44,874 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] ERROR migratus.migration.sql - ERROR: cannot drop table catalog.book_item because other objects depend on it
+  Detail: constraint book_lending_book_item_id_fkey on table catalog.book_lending depends on table catalog.book_item
+  Hint: Use DROP ... CASCADE to drop the dependent objects too. 
+2023-04-25 18:56:44,877 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 

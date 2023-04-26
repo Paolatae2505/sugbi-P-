@@ -4,7 +4,7 @@ services:
   db:
     image: postgres:14.0
     ports:
-      - 5432:5432
+      - 5433:5432
     command: postgres -c log_statement=all -c timezone='America/Mexico_City'
     volumes:
       - ./postgres-init-scripts:/docker-entrypoint-initdb.d

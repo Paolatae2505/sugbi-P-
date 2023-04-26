@@ -1,0 +1,1 @@
+["^ ","~$matching-books",["^ ","~:row",11,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$sugbi.catalog.db","~:top-ns","^7","~:arities",["^ ","~i1",["^ ","~:ret","~:seq","~:arglist-str","[title]"]],"~:type","~:fn"],"~:filename","/home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/src/clj/sugbi/catalog/db.clj"]

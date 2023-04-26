@@ -18,3 +18,8 @@ where isbn = :isbn
 -- :name get-books :? :*
 select isbn, true as "available"
 from catalog.book;
+
+-- :name insert-lending! :! :1
+insert into catalog.book_lending (user_id, book_item_id,loan_date,due_date) values
+ (:user_id, :book_item_id,:loan_date,:due_date +15)
+returning *;
