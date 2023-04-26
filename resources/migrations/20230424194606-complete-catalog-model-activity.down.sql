@@ -1,3 +1,3 @@
-drop table catalog.book_item;
+drop table catalog.book_item cascade;
 --;;
-drop table catalog.book_lending;
+drop table catalog.book_lending cascade;

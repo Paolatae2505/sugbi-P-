@@ -51,4 +51,12 @@ clj꞉shadow.user꞉> (user/reset-db)
 ; ERROR: cannot drop table catalog.book_item because other objects depend on it
 ;   Detail: constraint book_lending_book_item_id_fkey on table catalog.book_lending depends on table catalog.book_item
 ;   Hint: Use DROP ... CASCADE to drop the dependent objects too.
+clj꞉shadow.user꞉> (user/reset-db)
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
+; ERROR: syntax error at or near "casacade"
+;   Position: 30
+clj꞉shadow.user꞉> (user/reset-db)
+nil
+clj꞉shadow.user꞉> (user/reset-db)
+nil
 clj꞉shadow.user꞉> 
