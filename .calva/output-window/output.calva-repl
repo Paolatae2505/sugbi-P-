@@ -16,6 +16,12 @@
 ;   - See https://calva.io/connect-sequences/
 ; 
 ; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
 ; Using host:port localhost:7002 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
@@ -31,10 +37,267 @@ clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
 ; Connecting cljs repl: shadow-cljs...
 ;   The Calva Connection Log might have more connection progress information.
 ; Failed starting cljs repl
-
-
 ; Jack-in done.
-clj꞉shadow.user꞉> (user/start)
+clj꞉shadow.user꞉> (insert-lending! 1, 1)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:41:19).
+; Unable to resolve symbol: insert-lending! in this context
+clj꞉shadow.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen + shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :dependencies conj '[cider/cider-nrepl,"0.28.5"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["shadow.cljs.devtools.server.nrepl/middleware"]' -- repl :headless ; popd
+; Jacking in...
+; Connecting using "Leiningen + lein-shadow" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Jacking in...
+; Connecting using "Leiningen + lein-shadow" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> (get-book-lendings 1)
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#'sugbi.catalog.core/get-book
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :isbn parameter data not found.
+clj꞉sugbi.catalog.db꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> ()
+clj꞉sugbi.catalog.core꞉> 
+; Evaluating file: db.clj
+#'sugbi.catalog.db/matching-books
+clj꞉sugbi.catalog.db꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :isbn parameter data not found.
+clj꞉sugbi.catalog.db꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :isbn parameter data not found.
+clj꞉sugbi.catalog.db꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :isbn parameter data not found.
+clj꞉sugbi.catalog.db꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :isbn parameter data not found.
+clj꞉sugbi.catalog.db꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :isbn parameter data not found.
+clj꞉sugbi.catalog.db꞉> 
+; Execution error (ClassCastException) at sugbi.db.core/eval13577$fn (core.clj:14).
+; class mount.core.DerefableState cannot be cast to class clojure.lang.IFn (mount.core.DerefableState is in unnamed module of loader clojure.lang.DynamicClassLoader @2b8bd14b; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉sugbi.catalog.db꞉> 
+; Execution error (ClassCastException) at sugbi.db.core/eval13577$fn (core.clj:14).
+; class mount.core.DerefableState cannot be cast to class clojure.lang.IFn (mount.core.DerefableState is in unnamed module of loader clojure.lang.DynamicClassLoader @2b8bd14b; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉sugbi.catalog.db꞉> (user/start)
 {:started
  ["#'sugbi.config/env"
   "#'sugbi.auth.google.core/openid-configuration"
@@ -42,21 +305,275 @@ clj꞉shadow.user꞉> (user/start)
   "#'sugbi.handler/init-app"
   "#'sugbi.handler/app-routes"
   "#'sugbi.core/http-server"]}
+clj꞉sugbi.catalog.db꞉> 
 {:started []}
+{:started []}
+clj꞉sugbi.catalog.db꞉> 
+clj꞉sugbi.catalog.db꞉> 
+{:started []}
+clj꞉sugbi.catalog.db꞉> 
+#'sugbi.catalog.db/COG
+clj꞉sugbi.catalog.db꞉> 
+[{:isbn "882007405", :available true} {:isbn "18281", :available true} {:isbn "250589", :available true}]
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: : book_item_id parameter data not found.
+clj꞉sugbi.catalog.core꞉> 
+{:book_id 4, :title "Alicia en el pais de las maravillas", :isbn "1290689"}
+clj꞉sugbi.catalog.core꞉> 
+; Syntax error compiling at (src/clj/sugbi/catalog/core.clj:10:3).
+; No such var: db/insert-book_item!
+clj꞉sugbi.catalog.core꞉> (user/start)
+{:started []}
+clj꞉sugbi.catalog.core꞉> 
+; Syntax error compiling at (src/clj/sugbi/catalog/core.clj:10:3).
+; No such var: db/insert-book_item!
+clj꞉sugbi.catalog.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
 clj꞉shadow.user꞉> 
-clj꞉shadow.user꞉> (user/reset-db)
-nil
-clj꞉shadow.user꞉> (user/reset-db)
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ClassCastException) at sugbi.db.core/eval13577$fn (core.clj:14).
+; class mount.core.DerefableState cannot be cast to class clojure.lang.IFn (mount.core.DerefableState is in unnamed module of loader clojure.lang.DynamicClassLoader @2b8bd14b; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉sugbi.catalog.core꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+clj꞉sugbi.catalog.core꞉> 
+{:count 2}
+clj꞉sugbi.catalog.core꞉> 
+{:book_item_id 5, :book_id 4}
+clj꞉sugbi.catalog.core꞉> 
+{:book_item_id 6, :book_id 4}
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :book_item_id parameter data not found.
+clj꞉sugbi.catalog.core꞉> 
+{:book_lending_id 2,
+ :user_id 1,
+ :book_item_id 5,
+ :loan_date #object[java.time.LocalDate 0x5c7086 "2023-04-28"],
+ :due_date #object[java.time.LocalDate 0xdd63f51 "2023-05-12"]}
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :loan_date parameter data not found.
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: :loan_date parameter data not found.
+clj꞉sugbi.catalog.core꞉> 
+[{:count 1}]
+clj꞉sugbi.catalog.core꞉> 
 ; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
-; ERROR: cannot drop table catalog.book_item because other objects depend on it
-;   Detail: constraint book_lending_book_item_id_fkey on table catalog.book_lending depends on table catalog.book_item
-;   Hint: Use DROP ... CASCADE to drop the dependent objects too.
-clj꞉shadow.user꞉> (user/reset-db)
-; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
-; ERROR: syntax error at or near "casacade"
-;   Position: 30
-clj꞉shadow.user꞉> (user/reset-db)
-nil
-clj꞉shadow.user꞉> (user/reset-db)
-nil
+; ERROR: operator does not exist: text = jsonb
+;   Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+;   Position: 45
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: : book_item_id parameter data not found.
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ExceptionInfo) at hugsql.core/validate-parameters! (core.clj:83).
+; Parameter Mismatch: : book_item_id parameter data not found.
+clj꞉sugbi.catalog.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
 clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
+; ERROR: relation "book_lending" does not exist
+;   Position: 27
+clj꞉sugbi.catalog.core꞉> 
+{:?column? false}
+clj꞉sugbi.catalog.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (ClassCastException) at sugbi.db.core/eval13577$fn (core.clj:14).
+; class mount.core.DerefableState cannot be cast to class clojure.lang.IFn (mount.core.DerefableState is in unnamed module of loader clojure.lang.DynamicClassLoader @2b8bd14b; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉sugbi.catalog.core꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
+; ERROR: relation "book_lending" does not exist
+;   Position: 27
+clj꞉sugbi.catalog.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+clj꞉sugbi.catalog.core꞉> 
+; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
+; ERROR: relation "book_lending" does not exist
+;   Position: 15
+clj꞉sugbi.catalog.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+#'sugbi.catalog.core/get-book-lendings
+clj꞉sugbi.catalog.core꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+clj꞉sugbi.catalog.core꞉> 
+{:available true}
+clj꞉sugbi.catalog.core꞉> 
+nil
+clj꞉sugbi.catalog.core꞉> 

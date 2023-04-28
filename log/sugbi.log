@@ -1,137 +1,143 @@
-2023-04-25 14:37:12,353 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
-2023-04-25 14:37:16,534 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
-2023-04-25 14:37:16,599 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
-2023-04-25 14:37:17,164 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
-2023-04-25 14:37:17,266 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
-2023-04-25 15:42:14,529 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  sugbi.env - 
+2023-04-27 18:37:10,152 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 18:37:11,387 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 18:37:11,422 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 18:37:11,797 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 18:37:11,813 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 18:50:29,460 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 18:50:30,614 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 18:54:08,597 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 18:54:09,764 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 18:54:09,777 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 18:54:09,936 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 18:54:09,947 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 20:43:32,555 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 20:51:25,414 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 20:51:26,582 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 20:51:26,601 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 20:51:26,784 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 20:51:26,799 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 21:09:22,816 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 21:10:37,701 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 21:10:38,724 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 21:10:38,734 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 21:10:38,946 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 21:10:38,970 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 21:11:17,960 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@49af530d on HttpServerExchange{ GET /api/remote-relay} 
+2023-04-27 21:11:17,962 [XNIO-1 I/O-3] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2023-04-27 21:11:17,964 [XNIO-1 I/O-3] DEBUG i.undertow.websockets.core.extension - Negotiated extension WebSocketExtension{name='permessage-deflate', parameters=[]} for handshake WebSocketExtension{name='permessage-deflate', parameters=[{'client_max_window_bits': 'null'}]} 
+2023-04-27 21:11:18,194 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:18,216 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:23,239 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:28,248 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:33,254 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:38,259 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:43,278 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:48,297 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:53,314 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:11:58,326 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:12:03,339 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:12:08,345 [XNIO-1 I/O-3] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:12:12,021 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 21:13:02,678 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 21:13:03,538 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 21:13:03,545 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 21:13:03,656 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 21:13:03,680 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 21:13:32,819 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 21:14:48,602 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 21:14:49,499 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 21:14:49,539 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 21:14:49,690 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 21:14:49,706 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 21:15:09,914 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@40a2727f on HttpServerExchange{ GET /api/remote-relay} 
+2023-04-27 21:15:09,919 [XNIO-1 I/O-2] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2023-04-27 21:15:09,921 [XNIO-1 I/O-2] DEBUG i.undertow.websockets.core.extension - Negotiated extension WebSocketExtension{name='permessage-deflate', parameters=[]} for handshake WebSocketExtension{name='permessage-deflate', parameters=[{'client_max_window_bits': 'null'}]} 
+2023-04-27 21:15:10,009 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:10,018 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:15,036 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:20,058 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:25,071 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:30,075 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:35,084 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:40,097 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:45,106 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:50,115 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:15:55,125 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:00,135 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:05,144 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:10,152 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:15,162 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:20,171 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:25,185 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:30,195 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:35,201 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:40,210 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:45,229 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:50,240 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:16:55,253 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:17:00,258 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2023-04-27 21:17:04,003 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 21:17:45,101 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 21:17:46,031 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 21:17:46,044 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 21:17:46,202 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 21:17:46,229 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 21:28:07,818 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 21:28:08,559 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 21:34:06,485 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 21:34:07,508 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 21:34:07,520 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 21:34:07,669 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 21:34:07,687 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 22:34:34,785 [nREPL-session-dce09c7b-e62a-4885-806c-5fde68fe3cf0] INFO  sugbi.env - 
 -=[sugbi started successfully using the development profile]=- 
-2023-04-25 15:42:19,074 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  luminus.http-server - server started on port 3000 
-2023-04-25 18:54:07,160 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 18:54:07,481 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - creating migration table 'schema_migrations' 
-2023-04-25 18:54:09,015 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x7cc8f94 /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 18:54:09,020 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 18:54:09,024 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 18:54:09,052 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x6df14445 /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 18:54:09,054 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running up for [20230228002443 20230321184035 20230417032642 20230424194606] 
-2023-04-25 18:54:09,054 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230228002443-initial-catalog-model 
-2023-04-25 18:54:09,055 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 18:54:09,115 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 4 up migrations 
-2023-04-25 18:54:09,367 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230228002443 complete 
-2023-04-25 18:54:09,395 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230321184035-removes-catalog-book-info 
-2023-04-25 18:54:09,395 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 18:54:09,398 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 3 up migrations 
-2023-04-25 18:54:09,511 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230321184035 complete 
-2023-04-25 18:54:09,528 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230417032642-adds-librarians 
-2023-04-25 18:54:09,528 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 18:54:09,532 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
-2023-04-25 18:54:09,733 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230417032642 complete 
-2023-04-25 18:54:09,760 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230424194606-complete-catalog-model-activity 
-2023-04-25 18:54:09,762 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x4b179fde org.postgresql.jdbc.PgConnection@4b179fde]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 18:54:09,799 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
-2023-04-25 18:54:09,923 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230424194606 complete 
-2023-04-25 18:54:09,950 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 18:56:44,724 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 18:56:44,773 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x56365f9d /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 18:56:44,775 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running down for [20230424194606 20230417032642 20230321184035 20230228002443] 
-2023-04-25 18:56:44,776 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230424194606-complete-catalog-model-activity 
-2023-04-25 18:56:44,777 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x2ab4dd98 org.postgresql.jdbc.PgConnection@2ab4dd98]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 18:56:44,817 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
-2023-04-25 18:56:44,873 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] ERROR migratus.migration.sql - failed to execute command:
- drop table catalog.book_item;
- 
-2023-04-25 18:56:44,874 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] ERROR migratus.migration.sql - ERROR: cannot drop table catalog.book_item because other objects depend on it
-  Detail: constraint book_lending_book_item_id_fkey on table catalog.book_lending depends on table catalog.book_item
-  Hint: Use DROP ... CASCADE to drop the dependent objects too. 
-2023-04-25 18:56:44,877 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 19:14:41,578 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 19:14:41,611 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x6d10802c /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 19:14:41,613 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running down for [20230424194606 20230417032642 20230321184035 20230228002443] 
-2023-04-25 19:14:41,614 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230424194606-complete-catalog-model-activity 
-2023-04-25 19:14:41,614 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0xc435626 org.postgresql.jdbc.PgConnection@c435626]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:14:41,619 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
-2023-04-25 19:14:41,621 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] ERROR migratus.migration.sql - failed to execute command:
- drop table catalog.book_item casacade;
- 
-2023-04-25 19:14:41,621 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] ERROR migratus.migration.sql - ERROR: syntax error at or near "casacade"
-  Position: 30 
-2023-04-25 19:14:41,624 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 19:15:31,077 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 19:15:31,106 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x4b9475ad /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 19:15:31,109 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running down for [20230424194606 20230417032642 20230321184035 20230228002443] 
-2023-04-25 19:15:31,109 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230424194606-complete-catalog-model-activity 
-2023-04-25 19:15:31,110 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x23831de0 org.postgresql.jdbc.PgConnection@23831de0]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:31,117 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
-2023-04-25 19:15:31,239 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230424194606 not complete 
-2023-04-25 19:15:31,264 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230417032642-adds-librarians 
-2023-04-25 19:15:31,265 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x23831de0 org.postgresql.jdbc.PgConnection@23831de0]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:31,279 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
-2023-04-25 19:15:31,347 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230417032642 not complete 
-2023-04-25 19:15:31,375 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230321184035-removes-catalog-book-info 
-2023-04-25 19:15:31,377 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x23831de0 org.postgresql.jdbc.PgConnection@23831de0]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:31,385 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 3 down migrations 
-2023-04-25 19:15:31,587 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230321184035 not complete 
-2023-04-25 19:15:31,622 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230228002443-initial-catalog-model 
-2023-04-25 19:15:31,624 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x23831de0 org.postgresql.jdbc.PgConnection@23831de0]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:31,645 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 4 down migrations 
-2023-04-25 19:15:31,696 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230228002443 not complete 
-2023-04-25 19:15:31,718 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 19:15:31,719 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 19:15:31,751 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x1700eaea /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 19:15:31,754 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running up for [20230228002443 20230321184035 20230417032642 20230424194606] 
-2023-04-25 19:15:31,754 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230228002443-initial-catalog-model 
-2023-04-25 19:15:31,755 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x165268a org.postgresql.jdbc.PgConnection@165268a]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:31,765 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 4 up migrations 
-2023-04-25 19:15:32,086 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230228002443 complete 
-2023-04-25 19:15:32,114 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230321184035-removes-catalog-book-info 
-2023-04-25 19:15:32,117 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x165268a org.postgresql.jdbc.PgConnection@165268a]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:32,136 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 3 up migrations 
-2023-04-25 19:15:32,211 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230321184035 complete 
-2023-04-25 19:15:32,235 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230417032642-adds-librarians 
-2023-04-25 19:15:32,236 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x165268a org.postgresql.jdbc.PgConnection@165268a]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:32,244 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
-2023-04-25 19:15:32,371 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230417032642 complete 
-2023-04-25 19:15:32,398 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230424194606-complete-catalog-model-activity 
-2023-04-25 19:15:32,399 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x165268a org.postgresql.jdbc.PgConnection@165268a]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:15:32,415 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
-2023-04-25 19:15:32,582 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230424194606 complete 
-2023-04-25 19:15:32,610 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 19:26:29,051 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 19:26:29,078 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x33f2dbb7 /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 19:26:29,079 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running down for [20230424194606 20230417032642 20230321184035 20230228002443] 
-2023-04-25 19:26:29,080 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230424194606-complete-catalog-model-activity 
-2023-04-25 19:26:29,080 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x615cf298 org.postgresql.jdbc.PgConnection@615cf298]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:29,089 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
-2023-04-25 19:26:29,163 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230424194606 not complete 
-2023-04-25 19:26:29,188 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230417032642-adds-librarians 
-2023-04-25 19:26:29,190 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x615cf298 org.postgresql.jdbc.PgConnection@615cf298]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:29,204 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 down migrations 
-2023-04-25 19:26:29,228 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230417032642 not complete 
-2023-04-25 19:26:29,244 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230321184035-removes-catalog-book-info 
-2023-04-25 19:26:29,245 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x615cf298 org.postgresql.jdbc.PgConnection@615cf298]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:29,250 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 3 down migrations 
-2023-04-25 19:26:29,417 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230321184035 not complete 
-2023-04-25 19:26:29,444 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Down 20230228002443-initial-catalog-model 
-2023-04-25 19:26:29,445 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x615cf298 org.postgresql.jdbc.PgConnection@615cf298]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:29,467 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 4 down migrations 
-2023-04-25 19:26:29,518 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230228002443 not complete 
-2023-04-25 19:26:29,532 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
-2023-04-25 19:26:29,533 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Starting migrations 
-2023-04-25 19:26:29,567 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x626e818b /home/paola/Documentos/I.S/SugbiPaola/sugbi-P-/resources/migrations] 
-2023-04-25 19:26:29,568 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Running up for [20230228002443 20230321184035 20230417032642 20230424194606] 
-2023-04-25 19:26:29,569 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230228002443-initial-catalog-model 
-2023-04-25 19:26:29,569 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x431d37a4 org.postgresql.jdbc.PgConnection@431d37a4]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:29,574 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 4 up migrations 
-2023-04-25 19:26:29,907 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230228002443 complete 
-2023-04-25 19:26:29,934 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230321184035-removes-catalog-book-info 
-2023-04-25 19:26:29,936 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x431d37a4 org.postgresql.jdbc.PgConnection@431d37a4]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:29,955 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 3 up migrations 
-2023-04-25 19:26:30,371 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230321184035 complete 
-2023-04-25 19:26:30,420 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230417032642-adds-librarians 
-2023-04-25 19:26:30,422 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x431d37a4 org.postgresql.jdbc.PgConnection@431d37a4]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:30,447 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
-2023-04-25 19:26:30,581 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230417032642 complete 
-2023-04-25 19:26:30,609 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Up 20230424194606-complete-catalog-model-activity 
-2023-04-25 19:26:30,610 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.database - Connection is  {:connection #object[org.postgresql.jdbc.PgConnection 0x431d37a4 org.postgresql.jdbc.PgConnection@431d37a4]} Config is {:store :database, :db {:connection-uri uri-censored}} 
-2023-04-25 19:26:30,623 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.migration.sql - found 2 up migrations 
-2023-04-25 19:26:30,743 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] DEBUG migratus.database - marking 20230424194606 complete 
-2023-04-25 19:26:30,771 [nREPL-session-4e381633-0c33-445b-900e-fc96109cf548] INFO  migratus.core - Ending migrations 
+2023-04-27 22:34:39,990 [nREPL-session-dce09c7b-e62a-4885-806c-5fde68fe3cf0] INFO  luminus.http-server - server started on port 3000 
+2023-04-27 23:00:48,646 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:00:49,803 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:02:04,126 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 23:02:05,744 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 23:02:05,763 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 23:02:06,044 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 23:02:06,073 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 23:03:35,950 [nREPL-session-74dae8bb-8120-40f8-8398-90790b407cb8] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-04-27 23:03:36,878 [nREPL-session-74dae8bb-8120-40f8-8398-90790b407cb8] INFO  luminus.http-server - server started on port 3000 
+2023-04-27 23:19:45,769 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:19:46,171 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:20:27,952 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 23:20:29,270 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 23:20:29,291 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 23:20:29,461 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 23:20:29,493 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 23:21:12,005 [nREPL-session-db790ac4-b051-4a08-888c-055fc1279f21] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-04-27 23:21:12,823 [nREPL-session-db790ac4-b051-4a08-888c-055fc1279f21] INFO  luminus.http-server - server started on port 3000 
+2023-04-27 23:28:42,344 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:29:34,784 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 23:29:36,081 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 23:29:36,093 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 23:29:36,284 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 23:29:36,302 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 23:30:47,923 [nREPL-session-9ea520b0-006f-4d54-bf15-52a5870bcfe4] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-04-27 23:30:48,792 [nREPL-session-9ea520b0-006f-4d54-bf15-52a5870bcfe4] INFO  luminus.http-server - server started on port 3000 
+2023-04-27 23:32:59,799 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:33:00,667 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:33:50,007 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 23:33:51,343 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 23:33:51,370 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 23:33:51,685 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 23:33:51,704 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 23:34:19,863 [nREPL-session-cc425c0c-4748-41d0-b169-10d4ddf3ba20] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-04-27 23:34:20,845 [nREPL-session-cc425c0c-4748-41d0-b169-10d4ddf3ba20] INFO  luminus.http-server - server started on port 3000 
+2023-04-27 23:36:51,627 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:36:51,991 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2023-04-27 23:37:46,304 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-04-27 23:37:47,592 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-04-27 23:37:47,602 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-04-27 23:37:47,784 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-04-27 23:37:47,805 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-04-27 23:38:28,679 [nREPL-session-f2710bb3-b5d5-41e1-a83f-572dbf51ae61] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-04-27 23:38:29,631 [nREPL-session-f2710bb3-b5d5-41e1-a83f-572dbf51ae61] INFO  luminus.http-server - server started on port 3000 
