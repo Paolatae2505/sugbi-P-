@@ -1,0 +1,1 @@
+ALTER TABLE catalog.book_lending ALTER COLUMN user_id SET DATA TYPE text;

@@ -1,0 +1,9 @@
+2023-05-03 22:01:06,831 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2023-05-03 22:01:11,480 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2023-05-03 22:01:11,555 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2023-05-03 22:01:12,141 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2023-05-03 22:01:12,219 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2023-05-03 22:02:10,113 [nREPL-session-eb453d23-ef87-48c1-80b7-2b6c79be8a31] INFO  sugbi.env - 
+-=[sugbi started successfully using the development profile]=- 
+2023-05-03 22:02:14,181 [nREPL-session-eb453d23-ef87-48c1-80b7-2b6c79be8a31] INFO  luminus.http-server - server started on port 3000 
+2023-05-03 22:03:29,960 [Thread-1] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 

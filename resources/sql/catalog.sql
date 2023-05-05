@@ -29,7 +29,7 @@ insert into catalog.book_lending (user_id, book_item_id,loan_date,due_date) valu
 returning *;
 
 -- :name delete-User :! :n
-delete catalog.book_lending where user_id := user_id;
+delete catalog.book_lending where user_id = :user_id AND book_item_id = :book_item_id ;
 
 -- :name books-from-user  :? :*
 select book_id, title
@@ -54,7 +54,7 @@ where isbn = :isbn;
 -- :name get-book-id-2 :? :1
 select book_id
 from catalog.book_item
-where book_item_id = : book_item_id;
+where book_item_id = :book_item_id;
 
 -- :name get-isbn :? :1
 select isbn
@@ -75,3 +75,18 @@ where book_id = :book_id;
 select book_item_id = :book_item_id as "available"
 from catalog.book_lending
 where book_item_id = :book_item_id;
+
+-- :name exist-book-item :? :1
+select book_item_id = :book_item_id as "available"
+from catalog.book_item
+where book_item_id = :book_item_id;
+
+-- :name exist-user-id :? :1
+select user_id = :user_id as "available"
+from catalog.book_lending
+where user_id = :user_id;
+
+-- :name exist-book-item-And-user :? :1
+select book_item_id = :book_item_id AND user_id = :user_id as "available"
+from catalog.book_lending
+where book_item_id = :book_item_id AND user_id = :user_id;
