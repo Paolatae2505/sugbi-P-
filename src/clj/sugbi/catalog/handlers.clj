@@ -70,16 +70,20 @@
             (response/ok (catalog.core/return-book user_id book_item_id))
             (response/conflict {:message "You don't have that book on loan"}))
           (response/not-found {:message "Doesn't exist the book item id"}))
-      (response/forbidden {:message "Necesitas tener una sesión activa."})) 
+      (response/forbidden {:message "You need to have an active session
+"})) 
     )
   )
 
 (defn lending-books
   [request]
    (let [user_id  (get-in request [:session :sub])]
-     (if (catalog.db/exist-user-id {:user_id user_id})
-        (response/ok (catalog.core/get-book-lendings user_id))
-       (response/not-found {:message "User doesn't have book lendings"}))) 
+     (if (some? user_id)
+       (if (catalog.db/exist-user-id {:user_id user_id})
+         (response/ok (catalog.core/get-book-lendings user_id))
+         (response/not-found {:message "User doesn't have book lendings"}))
+       (response/forbidden {:message "You need to have an active session"}))
+     ) 
   )
 ;; => #'sugbi.catalog.handlers/lending-books
 

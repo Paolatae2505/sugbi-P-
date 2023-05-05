@@ -64,7 +64,7 @@
                          :handler    catalog.handlers/delete-book!}}
       ["/item" ["/:book-item-id"
                 ["/checkout"
-                 {:post {:summary "checkout a book by its isbn and book item id"
+                 {:post {:summary "checkout a book by its book item id"
                          :parameters {:header {:cookie string?}
                                       :body {:book_item_id int?}}
                          :responses {200 {:body info-book-lending}
@@ -73,7 +73,7 @@
                                      403 {:body {:message string?}}}
                          :handler catalog.handlers/checkout-book}}]
                 ["/return"
-                 {:delete {:summary "return a lending book by its isbn and book-item-id"
+                 {:delete {:summary "Delete a book that is returned"
                            :paramaters {:header {:cookie string?}
                                         :path  {:book_item_id int?}}
                            :responses {200 {:body {:deleted int?}}
@@ -87,9 +87,10 @@
  ["/lendings" {:get  {:summary    "Gets user's lendings"
                       :parameters {:header {:cookie string?}}
                       :responses  {200 {:body [info-book-lending]}
-                                   404 {:header {:cookie string?}}}
+                                   404 {:header {:cookie string?}}
+                                   403 {:body {:message string?}}}
                       :handler    catalog.handlers/lending-books}}]]
-["/lendings" {:get  {:summary    "Gets user's lendings by librarian"
+["/lendings" {:get  {:summary    "Gets user's lendings by user-id"
           :parameters {:header {:cookie string?}
                        :query {:user-id int?}}
           :responses  {200 {:body [info-book-lending]}
