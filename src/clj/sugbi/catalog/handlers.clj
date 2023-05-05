@@ -47,33 +47,31 @@
       (response/ok book-info)
       (response/not-found {:isbn isbn}))))
 
-(defn checkout-book 
+
+(defn checkout-book
+  [request]
+  (let [book_item_id (get-in request [:parameters :body :book_item_id])
+        user_id      (get-in request [:session :sub])]
+    (if (some? user_id) 
+      (if (catalog.db/exist-book-item {:book_item_id book_item_id})
+        (if (catalog.db/is-taken {:book_item_id book_item_id})
+          (response/conflict {:message "The copy of the book is already taken, try another one !!!!"})
+          (response/ok (catalog.core/checkout-book  user_id , book_item_id)))
+        (response/not-found {:message "Doesn't exist the book item id"}))
+      (response/forbidden {:message "You are not in an active session"}))))
+
+
+(defn return-book
   [request]
   (let [book_item_id (get-in request [:parameters :path :book-item-id])
         user_id      (get-in request [:session :sub])]
     (if (some? user_id)
-    (if (catalog.db/exist-book-item {:book_item_id book_item_id}) 
-     (if (catalog.db/is-taken {:book_item_id book_item_id})
-      (response/conflict {:message "The copy of the book is already taken, try another one !!!!"}) 
-       (response/ok (catalog.core/checkout-book  user_id  book_item_id))) 
-      (response/not-found {:message "Doesn't exist the book item id"})) 
-      (response/forbidden {:message "You are not in an active session"}) )
-    ))
-
-(defn return-book 
-  [request]
-  (let [book_item_id (get-in request [:parameters :path :book-item-id])
-        user_id      (get-in request [:session :sub])]
-    (if (some? user_id) 
-        (if (catalog.db/exist-book-item {:book_item_id book_item_id})
-          (if (catalog.db/exist-book-item-And-user {:book_item_id book_item_id :user_id user_id})
-            (response/ok (catalog.core/return-book user_id book_item_id))
-            (response/conflict {:message "You don't have that book on loan"}))
-          (response/not-found {:message "Doesn't exist the book item id"}))
-      (response/forbidden {:message "You need to have an active session
-"})) 
-    )
-  )
+      (if (catalog.db/exist-book-item {:book_item_id book_item_id})
+        (if (catalog.db/exist-book-item-And-user {:book_item_id book_item_id :user_id user_id})
+          (response/ok (catalog.core/return-book user_id book_item_id))
+          (response/conflict {:message "You don't have that book on loan"}))
+        (response/not-found {:message "Doesn't exist the book item id"}))
+      (response/forbidden {:message "You need to have an active session"}))))
 
 (defn lending-books
   [request]

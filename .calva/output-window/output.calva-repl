@@ -10,24 +10,6 @@
 ;   - See https://calva.io/connect-sequences/
 ; 
 ; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
-; Jacking in...
-; Connecting using "shadow-cljs" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
-; Jacking in...
-; Connecting using "shadow-cljs" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
-; Jacking in...
-; Connecting using "shadow-cljs" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
 ; Using host:port localhost:7002 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
@@ -52,65 +34,31 @@ clj꞉shadow.user꞉> (user/start)
   "#'sugbi.handler/init-app"
   "#'sugbi.handler/app-routes"
   "#'sugbi.core/http-server"]}
-clj꞉shadow.user꞉> (keys config.env)
-; Syntax error (ClassNotFoundException) compiling at (.calva/output-window/output.calva-repl:55:19).
-; config.env
-clj꞉shadow.user꞉> (keys config/env)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:58:19).
-; No such namespace: config
-clj꞉shadow.user꞉> (keys sugbi.config/env)
-(:npm-config-cache
- :java-class-path
- :lein-java-cmd
- :path
- :npm-config-init-module
- :npm-node-execpath
- :electron-run-as-node
- :xdg-session-type
- :xdg-session-desktop
- :sun-management-compiler
- :java-vendor-url
- :npm-config-noproxy
- :home
- :wayland-display
- :user-country
- :journal-stream
- :npm-package-json
- :shlvl
- :user-language
- :color
- :vscode-pid
- :desktop-session
- :clojure-compile-path
- :trampoline-file
- :java-vm-specification-name
- :xmodifiers
- :java-cmd
- :sun-java-command
- :pwd
- :google/secret
- :java-runtime-name
- :gio-launched-desktop-file
- :java-vm-compressedoopsmode
- :chrome-desktop
- :file-separator
- :xdg-session-class
- :ssh-auth-sock
- :user-name
- :gnome-desktop-session-id
- :-
- :gdk-backend
- :user-home
- :sun-cpu-endian
- :username
- :java-specification-vendor
- :original-xdg-current-desktop
- :npm-lifecycle-event
- :sugbi-version
- :lein-home
- :npm-lifecycle-script
- .. .)
-clj꞉shadow.user꞉> (user/restart)
+clj꞉shadow.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Failed starting cljs repl
+; Jack-in done.
+clj꞉shadow.user꞉> (user/start)
 {:started
  ["#'sugbi.config/env"
   "#'sugbi.auth.google.core/openid-configuration"
@@ -118,23 +66,81 @@ clj꞉shadow.user꞉> (user/restart)
   "#'sugbi.handler/init-app"
   "#'sugbi.handler/app-routes"
   "#'sugbi.core/http-server"]}
-clj꞉shadow.user꞉> (user/create-migration "mod book_ldending")
-nil
-clj꞉shadow.user꞉> (user/reset-db)
-nil
-clj꞉shadow.user꞉> (user/rest-db)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:125:19).
-; No such var: user/rest-db
-clj꞉shadow.user꞉> (user/reset-db)
-; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
-; ERROR: column "user_id" cannot be cast automatically to type bigint
-;   Hint: You might need to specify "USING user_id::bigint".
-clj꞉shadow.user꞉> (user/reset-db)
-; Execution error (PSQLException) at org.postgresql.core.v3.QueryExecutorImpl/receiveErrorResponse (QueryExecutorImpl.java:2675).
-; ERROR: syntax error at or near "USING"
-;   Position: 34
-clj꞉shadow.user꞉> (user/reset-db)
-nil
-clj꞉shadow.user꞉> (user/reset-db)
-nil
+clj꞉shadow.user꞉> (db/insert-book_item! {:book_id 1})
+; Syntax error compiling at (.calva/output-window/output.calva-repl:69:19).
+; No such namespace: db
+clj꞉shadow.user꞉> 
+{:book_item_id 3, :book_id 1}
+clj꞉sugbi.catalog.core꞉> 
+#'sugbi.catalog.core/available
+clj꞉sugbi.catalog.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Failed starting cljs repl
+; Jack-in done.
+clj꞉shadow.user꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
+clj꞉shadow.user꞉> 
+; Jacking in...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Aborting jack-in. No project type selected.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/paola/Documentos/I.S/SugbiPaola/sugbi-P- ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:7002 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Failed starting cljs repl
+; Jack-in done.
+clj꞉shadow.user꞉> (user/start)
+{:started
+ ["#'sugbi.config/env"
+  "#'sugbi.auth.google.core/openid-configuration"
+  "#'sugbi.db.core/*db*"
+  "#'sugbi.handler/init-app"
+  "#'sugbi.handler/app-routes"
+  "#'sugbi.core/http-server"]}
 clj꞉shadow.user꞉> 

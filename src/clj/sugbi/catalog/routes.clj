@@ -51,17 +51,18 @@
                  :responses  {200 {:body basic-book-info-spec}
                               405 {:body {:message string?}}}
                  :handler    catalog.handlers/insert-book!}}]
-     ["/:isbn" {:get    {:summary    "get a book info by its isbn"
-                         :parameters {:path {:isbn string?}}
-                         :responses  {200 {:body book-info-spec}
-                                      404 {:body {:isbn string?}}}
-                         :handler    catalog.handlers/get-book}
-                :delete {:summary    "delete a book title of the catalog"
-                         :parameters {:header {:cookie string?}
-                                      :path   {:isbn string?}}
-                         :responses  {200 {:body {:deleted int?}}
-                                      405 {:body {:message string?}}}
-                         :handler    catalog.handlers/delete-book!}}
+     ["/:isbn" [
+                ""{:get    {:summary    "get a book info by its isbn"
+                          :parameters {:path {:isbn string?}}
+                          :responses  {200 {:body book-info-spec}
+                                       404 {:body {:isbn string?}}}
+                          :handler    catalog.handlers/get-book}
+                 :delete {:summary    "delete a book title of the catalog"
+                          :parameters {:header {:cookie string?}
+                                       :path   {:isbn string?}}
+                          :responses  {200 {:body {:deleted int?}}
+                                       405 {:body {:message string?}}}
+                          :handler    catalog.handlers/delete-book!}}]
       ["/item" ["/:book-item-id"
                 ["/checkout"
                  {:post {:summary "checkout a book by its book item id"
@@ -74,7 +75,7 @@
                          :handler catalog.handlers/checkout-book}}]
                 ["/return"
                  {:delete {:summary "Delete a book that is returned"
-                           :paramaters {:header {:cookie string?}
+                           :parameters {:header {:cookie string?}
                                         :path  {:book_item_id int?}}
                            :responses {200 {:body {:deleted int?}}
                                        404 {:body {:book_item_id int?}}
@@ -83,7 +84,7 @@
                            :handler catalog.handlers/return-book}}]]]]]
     ]
     ["" {:swagger {:tags ["User"]}}
-["/user"
+ ["/user"
  ["/lendings" {:get  {:summary    "Gets user's lendings"
                       :parameters {:header {:cookie string?}}
                       :responses  {200 {:body [info-book-lending]}
@@ -96,7 +97,4 @@
           :responses  {200 {:body [info-book-lending]}
                        404 {:body {:user-id int?}}
                        403 {:body {:message string?}}}
-          :handler    catalog.handlers/get-user-lending-books}}]]]
-  
-  )
-
+          :handler    catalog.handlers/get-user-lending-books}}]]])
